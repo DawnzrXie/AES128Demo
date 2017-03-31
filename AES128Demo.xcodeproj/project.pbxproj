@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		2362F9511E8E06590027674C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362F9501E8E06590027674C /* main.m */; };
 		2362F9541E8E06590027674C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362F9531E8E06590027674C /* AppDelegate.m */; };
-		2362F9571E8E06590027674C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362F9561E8E06590027674C /* ViewController.m */; };
-		2362F95A1E8E06590027674C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2362F9581E8E06590027674C /* Main.storyboard */; };
 		2362F95D1E8E06590027674C /* AES128Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2362F95B1E8E06590027674C /* AES128Demo.xcdatamodeld */; };
 		2362F95F1E8E06590027674C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2362F95E1E8E06590027674C /* Assets.xcassets */; };
 		2362F9621E8E06590027674C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2362F9601E8E06590027674C /* LaunchScreen.storyboard */; };
 		2362F96D1E8E065A0027674C /* AES128DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362F96C1E8E065A0027674C /* AES128DemoTests.m */; };
 		2362F9781E8E065A0027674C /* AES128DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362F9771E8E065A0027674C /* AES128DemoUITests.m */; };
+		23A191341E8E1F29008A5E30 /* AES128_DawnzrXie.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A191331E8E1F29008A5E30 /* AES128_DawnzrXie.m */; };
+		23A191381E8E1FC3008A5E30 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A191361E8E1FC3008A5E30 /* HomeViewController.m */; };
+		23A191391E8E1FC3008A5E30 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23A191371E8E1FC3008A5E30 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,6 @@
 		2362F9501E8E06590027674C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2362F9521E8E06590027674C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2362F9531E8E06590027674C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2362F9551E8E06590027674C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2362F9561E8E06590027674C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2362F9591E8E06590027674C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2362F95C1E8E06590027674C /* AES128Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AES128Demo.xcdatamodel; sourceTree = "<group>"; };
 		2362F95E1E8E06590027674C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2362F9611E8E06590027674C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +51,11 @@
 		2362F9731E8E065A0027674C /* AES128DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES128DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2362F9771E8E065A0027674C /* AES128DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES128DemoUITests.m; sourceTree = "<group>"; };
 		2362F9791E8E065A0027674C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23A191321E8E1F29008A5E30 /* AES128_DawnzrXie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES128_DawnzrXie.h; sourceTree = "<group>"; };
+		23A191331E8E1F29008A5E30 /* AES128_DawnzrXie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES128_DawnzrXie.m; sourceTree = "<group>"; };
+		23A191351E8E1FC3008A5E30 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		23A191361E8E1FC3008A5E30 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		23A191371E8E1FC3008A5E30 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +108,11 @@
 			children = (
 				2362F9521E8E06590027674C /* AppDelegate.h */,
 				2362F9531E8E06590027674C /* AppDelegate.m */,
-				2362F9551E8E06590027674C /* ViewController.h */,
-				2362F9561E8E06590027674C /* ViewController.m */,
-				2362F9581E8E06590027674C /* Main.storyboard */,
+				23A191351E8E1FC3008A5E30 /* HomeViewController.h */,
+				23A191361E8E1FC3008A5E30 /* HomeViewController.m */,
+				23A191371E8E1FC3008A5E30 /* HomeViewController.xib */,
+				23A191321E8E1F29008A5E30 /* AES128_DawnzrXie.h */,
+				23A191331E8E1F29008A5E30 /* AES128_DawnzrXie.m */,
 				2362F95E1E8E06590027674C /* Assets.xcassets */,
 				2362F9601E8E06590027674C /* LaunchScreen.storyboard */,
 				2362F9631E8E06590027674C /* Info.plist */,
@@ -251,7 +256,7 @@
 			files = (
 				2362F9621E8E06590027674C /* LaunchScreen.storyboard in Resources */,
 				2362F95F1E8E06590027674C /* Assets.xcassets in Resources */,
-				2362F95A1E8E06590027674C /* Main.storyboard in Resources */,
+				23A191391E8E1FC3008A5E30 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2362F95D1E8E06590027674C /* AES128Demo.xcdatamodeld in Sources */,
-				2362F9571E8E06590027674C /* ViewController.m in Sources */,
 				2362F9541E8E06590027674C /* AppDelegate.m in Sources */,
 				2362F9511E8E06590027674C /* main.m in Sources */,
+				23A191381E8E1FC3008A5E30 /* HomeViewController.m in Sources */,
+				23A191341E8E1F29008A5E30 /* AES128_DawnzrXie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2362F9581E8E06590027674C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2362F9591E8E06590027674C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2362F9601E8E06590027674C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -511,6 +509,7 @@
 				2362F97E1E8E065A0027674C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2362F97F1E8E065A0027674C /* Build configuration list for PBXNativeTarget "AES128DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +518,7 @@
 				2362F9811E8E065A0027674C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2362F9821E8E065A0027674C /* Build configuration list for PBXNativeTarget "AES128DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +527,7 @@
 				2362F9841E8E065A0027674C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
